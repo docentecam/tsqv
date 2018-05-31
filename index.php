@@ -44,28 +44,30 @@
 		<div class="row">
 			<div class="col-sm text-center" >
 				<h1>
-					<span class="CA">Tu si que vales</span>
-					<span class="ES">Tu si que vales</span>
+					<span class="CA" style="display: none">Tu si que vales</span>
+					<span class="ES" >Tu si que vales</span>
 				</h1>
 				<span class="ES">Concursos de talentos del barrio el Besòs i el Maresme Viernes 15 de junio de 20h a 23h Rambla Prim con c. Ferrer Bassa</span><br>
 				<span class="ES">(Metro Besòs Mar-L4)</span><br>
 				<span class="ES">Si tienes alguna habilidad, talento, tocas algún instrumento, te gusta bailar, cantar,hacer playback, circo, teatro, magia o cualquier cosa estrambótica no te lo pienses y </span><br>
 				<span class="ES">¡apúntate! Concurso con premios!</span><br>
-				<span class="ES">¿Deseas leerlo en otro idioma? lo tenemos en  català, castellà, àrab, xinés i wolof<br><a href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a></span>	
+				<span class="ES">¿Deseas leerlo en otro idioma? lo tenemos en  català, castellà, àrab, xinés i wolof<br><a href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a></span><br>	
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm">
-					<span class="ES">3 CATEGORÍAS:</span>
-					<span class="ES">Infantil (hasta 12 años)</span>
-					<span class="ES">Juvenil (hasta 25 años)</span>
-					<span class="ES">Adulta (mayores 25 años)</span>
-				
+			<div class="col-sm text-center">
+					<span class="ES">3 CATEGORÍAS:</span><br>
+					<span class="ES"><i class="fas fa-child"></i>Infantil (hasta 12 años)</span><br>
+					<span class="ES"><i class="fas fa-graduation-cap"></i>Juvenil (hasta 25 años)</span><br>
+					<span class="ES"><i class="fas fa-male"></i>Adulta (mayores 25 años)</span>
 			</div>
-		</div>
+		</div><br>
 		<div class="row">
-			<div class="col-sm">
-				lo que va de inscripciones
+			<div class="col-sm text-center" >
+				<span class="ES text-center">INSCRIPCIONES</span><br>
+				<span class="ES">Hasta el 10 de junio, presencialmente en el Centre Cívic Besòs(rambla Prim 87-89,
+				 Metro L4 Besòs Mar)	o enviando un mail a tusiquevales.bm@gmail.com
+				Más info al 93 256 49 01 / 617 252 908</span>
 			</div>
 		</div>
 	</div>
