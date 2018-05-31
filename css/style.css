@@ -32,7 +32,10 @@
 .textBlack{
 	color:#000000;
 }
-
+.mrCss{
+	/*margin-right: 100%;*/
+	margin-right: 90px;
+}
 .divInicio{
 	align-items: center;
 	text-align: center;
