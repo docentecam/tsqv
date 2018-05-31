@@ -12,31 +12,32 @@
 		
 	</head>
 	<body>
-
 		<!-- TODO: menu principal -->
 		<header>
-			<div class="container d-flex fixed-top px-5">
-		    	<div class="mr-auto p-2">
-		    		<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
-		    	</div>
-		    	<div class="mr-auto p-2">
-		    		<a class="textBlack" href="#">Page 1</a>
-		    	</div>
-		    	<div class="mr-auto p-2">
-		    		<a class="textBlack" href="#">Page 2</a>
-		    	</div>
-		      	<div class="mr-auto p-2">
-					<a>
-		      			<h1>Tu Si Que Vales!</h1>
-		      		</a>
-		      	</div>
-				<div class="ml-auto p-2">
-					<a class="textBlack" href="#">ESP</a>
-				</div>
-  				<div class="ml-auto p-2">
-  					<a class="textBlack" href="#">CAT</a>
-  				</div>
-		    </div>	
+			<div class="d-block">
+				<div class="container d-flex fixed-top">
+			    	<div class="mr-auto p-2">
+			    		<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
+			    	</div>
+			    	<div class="mr-auto p-2">
+			    		<a class="textBlack" href="#">Page 1</a>
+			    	</div>
+			    	<div class="mr-auto p-2">
+			    		<a class="textBlack" href="#">Page 2</a>
+			    	</div>
+			      	<div class="mr-auto p-2">
+						<a>
+			      			<h1>Tu Si Que Vales!</h1>
+			      		</a>
+			      	</div>
+					<div class="ml-auto p-2">
+						<a class="textBlack" href="#">ESP</a>
+					</div>
+	  				<div class="ml-auto p-2">
+	  					<a class="textBlack" href="#">CAT</a>
+	  				</div>
+			    </div>
+			</div>	
 		</header>
 
 
