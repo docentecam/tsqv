@@ -155,7 +155,7 @@
 			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/Aj+basa_2014_rodona_color-fonsblanc.png">
 			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/Logo-CasesOficis-2018- color.png">
 			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/Logotipo_SOC_color_png.png">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/Logo Generalitat color_png.png">
+			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/LogoGeneralitatcolor_png.png">
 			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/MEYSS_color.jpg">
 		</footer>
 		<!-- fin footer -->
