@@ -123,7 +123,7 @@
 		
 			
 					<div class="container">
-						<div class="row">
+						<div class="row textcenter">
 				<?php
 				$resultVideos= listadoVideos();
 				while($row=mySqli_fetch_array($resultVideos))
@@ -131,9 +131,11 @@
 						 
 				?>
 		  					
-								<div class="col-6 mx-2 embed-responsive embed-responsive-16by9 mt-4">
+							<div class="col-5 ml-5 mt-4">	
+								<div class=" embed-responsive embed-responsive-16by9 ">
 						  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
 								</div>
+							</div>
 
 				<?php
 				}
