@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="js/functions.js"></script>
-		
+
 		<!-- TODO: menu principal -->
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -75,8 +75,9 @@
 			<!-- inicio form -->
 				<div class="row">
 					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
-					<form id="formVideo" class="col-12">
+					<form id="formVideo" >
 						<input type="text" name="">
+						<input type="button" name="" onclick="muestraDivVideo('subir')">
 					</form>
 				</div>
 			<!-- fin form -->	
@@ -88,5 +89,13 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script>	
+			$( document ).ready(function() {
+			    var miDiv=document.getElementById("formVideo");
+
+			  	miDiv.className="oculto";
+			  	console.log(miDiv.className);
+			});
+		</script>
 	</body>
 </html>
