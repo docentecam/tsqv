@@ -1,7 +1,7 @@
 <?php 
 	
 	function connect(){
-		$connexio=@mysqli_connect("localhost","root","","prueba1");
+		$connexio=@mysqli_connect("localhost","root","","tsqv");
 		if(!$connexio){
 			die("error al conectar");
 		}

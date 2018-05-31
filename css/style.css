@@ -1,3 +1,26 @@
+ 
+
+.borderFooter{
+	border-top:3px solid #E2E2E2;
+}
+.visible{display: none;}
+
+
+.visible{
+	display: none;
+}
+
+.oculto{display: block;}
+.row{
+	margin: 0;
+	padding: 0;
+
+}
+.textBlack{
+	color:#000000;
+
+}
+
 .visible{display: block;}
 .oculto{display: none;}
 .row {
@@ -10,6 +33,7 @@
 	color:#000000;
 }
 
+<<<<<<< HEAD
 .divInicio{
 	align-items: center;
 	text-align: center;
@@ -22,3 +46,15 @@
 .imgInicio{
 /*	height: 100%;*/
 }
+
+
+.white{
+	background-color:#FFFFFF;
+}
+
+i{
+	color:#ff4dc4;
+	font-size: 40px;
+}
+
+
