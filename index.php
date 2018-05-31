@@ -13,6 +13,9 @@
 		
 	</head>
 	<body>
+		<?php
+		require("models/videos.php");
+		?>
 		<!-- TODO: menu principal -->
 		<header>
 			<div class="container d-flex">
@@ -86,12 +89,38 @@
 					</form>
 				</div>
 			<!-- fin form -->	
-			<!--****-COMIENZO VIDEOS***-->
-			<!--***-FINAL VIDEOS**-->
+			
 			</div>
 		</div>
 
-		<!-- inicio footer -->
+
+
+		<!--****-COMIENZO VIDEOS***-->
+		
+			
+					<div class="container">
+						<div class="row">
+				<?php
+				$resultVideos= listadoVideos();
+				while($row=mySqli_fetch_array($resultVideos))
+				{
+						 
+				?>
+		  					
+								<div class="col-6 mx-2 embed-responsive embed-responsive-16by9 mt-4">
+						  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
+								</div>
+
+				<?php
+				}
+				?>
+					</div>
+			 	</div>
+			<!-- ***-FINAL VIDEOS** -->
+
+
+
+		<!-- inicio footer  -->
 		<div class=" borderFooter" width=device-width>
 			<img class="col-1" src="img/logo PDC.jpg">
 			<img class="col-1" src="img/logocalco2_sense_marc.jpg">
@@ -100,7 +129,7 @@
 			<img class="col-1" src="img/Logo_DTASF-Direccio_General_Accio_Civica_Comunitaria (1).jpg">
 			
 		</div>
-		<!-- fin footer -->
+		<!-- fin footer
 
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
