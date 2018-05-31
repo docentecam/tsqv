@@ -42,7 +42,7 @@
 
 
 		<!-- inicio Normatives del concurs________________________________________________________________ -->
-		<div class="container">
+		
 				<div class="row">
 					<div class="col-sm text-center mt-5">
 						<h1>
@@ -76,8 +76,7 @@
 						<span class="ES">Más info al 93 256 49 01 / 617 252 908</span><span class="CA" style="display: none">Més info al 93 256 49 01 / 617 252 908</span>
 					</div>
 				</div>
-			</div>
-		</div>
+	
 
 <!-- 		fi de normatives_______________________________________________________________________________________
  -->
