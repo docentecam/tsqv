@@ -83,8 +83,16 @@
 		<!--****-COMIENZO VIDEOS***-->
 		<!--***-FINAL VIDEOS**-->
 		</div>
-		
-
+		<!-- inicio footer -->
+		<div class=" borderFooter" width=device-width>
+			<img class="col-1" src="img/logo PDC.jpg">
+			<img class="col-1" src="img/logocalco2_sense_marc.jpg">
+			<img class="col-1" src="img/cazcarra.jpg">
+			<img class="col-1" src="img/BFD_DEFINITIVO.jpg">
+			<img class="col-1" src="img/Logo_DTASF-Direccio_General_Accio_Civica_Comunitaria (1).jpg">
+			
+		</div>
+		<!-- fin footer -->
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
