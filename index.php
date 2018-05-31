@@ -139,18 +139,21 @@
 		</div>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<!-- inicio footer -->
-		<footer class="mx-5 borderFooter">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/logo PDC.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/logocalco2_sense_marc.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/cazcarra.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/BFD_DEFINITIVO.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/Logo_DTASF-Direccio_General_Accio_Civica_Comunitaria (1).jpg">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/Aj+basa_2014_rodona_color-fonsblanc.png">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/Logo-CasesOficis-2018- color.png">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/Logotipo_SOC_color_png.png">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/Logo Generalitat color_png.png">
-			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/MEYSS_color.jpg">
+		<!-- inicio footer mx-5-->
+		<footer class=" borderFooter">
+
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/logo PDC.jpg">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/logocalco2_sense_marc.jpg">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/cazcarra.jpg">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/03_Diagonal_horitzontal_RGB.jpg">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/BFD_DEFINITIVO.jpg">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/Logo_DTASF-Direccio_General_Accio_Civica_Comunitaria (1).jpg">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/Aj+basa_2014_rodona_color-fonsblanc.png">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/Logo-CasesOficis-2018- color.png">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/Logotipo_SOC_color_png.png">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/logoGeneralitatColor_png.png">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/MEYSS_color.jpg">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/logocalco2_sense_marc.jpg">
 		</footer>
 		<!-- fin footer -->
 
