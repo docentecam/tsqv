@@ -24,9 +24,9 @@
 		require("models/videos.php");
 		?>
 
-		<!-- TODO: menu principal -->
+		<!-- TODO: menu principal-->
 		<header>
-			<div class="container d-flex d-block fixed-top bg-white mb-5">
+			<div class="container d-flex d-block fixed-top mb-5 bg-white">
 			    <div class="mr-auto p-2">
 			    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
 			    </div>
@@ -39,7 +39,7 @@
 			    <div class="mr-auto p-2 textBlack ">
 			    	<!-- <h1> -->
 			    	<h1 class="mrCss">
-			      		Tu Si Que Vales!
+			      		Tu Si Que Vales
 			      	</h1>
 			      	<!-- </h1> -->
 			    </div>

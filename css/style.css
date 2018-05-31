@@ -19,6 +19,19 @@ div.bg-light{
 .borderFooter{
 	border-top:3px solid #E2E2E2;
 }
+.visible{display: none;}
+
+
+.visible{
+	display: none;
+}
+
+.oculto{display: block;}
+.row{
+	margin: 0;
+	padding: 0;
+
+}
 .textBlack{
 	color:#000000;
 
@@ -36,8 +49,7 @@ div.bg-light{
 	color:#000000;
 }
 .mrCss{
-	/*margin-right: 100%;*/
-	margin-right: 90px;
+	margin-right: 95px;
 }
 .divInicio{
 	align-items: center;
