@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 .borderFooter{
 	border-top: 2px solid #E2E2E2;
-=======
+}
 .visible{display: none;}
 .oculto{display: block;}
 .row{
 	margin: 0;
 	padding: 0;
->>>>>>> e1d8a9f72b021aa3341ceeac1c72d3934140847a
+
 }
