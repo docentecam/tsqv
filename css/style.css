@@ -1,0 +1,6 @@
+.visible{display: none;}
+.oculto{display: block;}
+.row{
+	margin: 0;
+	padding: 0;
+}
