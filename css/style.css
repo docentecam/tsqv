@@ -63,4 +63,6 @@ i{
 	color: #98403c;
 	font-size: 40px;
 }
-
+.container{
+	padding: 0;
+}
