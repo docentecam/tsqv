@@ -20,6 +20,10 @@
 
 		</div>
 
+		<?php
+		require("models/videos.php");
+		?>
+
 		<!-- TODO: menu principal -->
 		<header>
 			<div class="container d-flex d-block fixed-top bg-white mb-5">
@@ -109,12 +113,38 @@
 					</form>
 				</div>
 			<!-- fin form -->	
-			<!--****-COMIENZO VIDEOS***-->
-			<!--***-FINAL VIDEOS**-->
+			
 			</div>
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+		<!--****-COMIENZO VIDEOS***-->
+		
+			
+					<div class="container">
+						<div class="row">
+				<?php
+				$resultVideos= listadoVideos();
+				while($row=mySqli_fetch_array($resultVideos))
+				{
+						 
+				?>
+		  					
+								<div class="col-6 mx-2 embed-responsive embed-responsive-16by9 mt-4">
+						  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
+								</div>
+
+				<?php
+				}
+				?>
+					</div>
+			 	</div>
+			<!-- ***-FINAL VIDEOS** -->
+
+
+
+
 		<!-- inicio footer -->
 		<footer class="mx-5 borderFooter">
 			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/logo PDC.jpg">
