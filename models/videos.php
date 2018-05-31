@@ -1,13 +1,24 @@
 <?php 
 	
+
+
 	if(isset($_GET['acc'])&&$_GET['acc']=='i'){
-		require("../inc/funcions.php");
-		$_GET['txtNom']="pepe";
-		$mySql=INSERT INTO `videos`(`idVideos`, `urlVideo`, `email`, `dataPub`, `principal`, `active`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6]);
+		require("../models/funcions.php");
+		$mySql="INSERT INTO `videos`(`urlVideo`, `principal`) VALUES ('".$_GET['urlVideo']."','Y')";
+		echo $mySql;
 		$connexio=connect();
-		$resultCases=mysqli_query($connexio,$mySql); 
+		$resultVideo=mysqli_query($connexio,$mySql); 
 		disconnect($connexio);
 	
 		$i=0;
 	}
+	function listadoVideos(){
+		require("models/funcions.php");
+		$mySql="SELECT `idVideo`, `urlVideo`, `email`, `dataPub`,`principal`,`active` FROM `videos`";
+		$connexio=connect();
+		$resultVideos=mysqli_query($connexio,$mySql);
+		disconnect($connexio);
+		
+		return $resultVideos;
+	} 
 ?>

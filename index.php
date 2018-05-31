@@ -152,7 +152,7 @@
 			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/Logotipo_SOC_color_png.png">
 			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/logoGeneralitatColor_png.png">
 			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/MEYSS_color.jpg">
-			<img class="col-3 col-md-3 col-lg-1  src="img/logocalco2_sense_marc.jpg">
+			<img class="col-3 col-md-3 col-lg-1 img-fluid" src="img/logocalco2_sense_marc.jpg">
 		</footer>
 		<!-- fin footer -->
 
