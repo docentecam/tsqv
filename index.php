@@ -15,7 +15,7 @@
 	<body>
 		<!-- TODO: menu principal -->
 		<header>
-			<div class="container d-flex">
+			<div class="container d-flex fixed-top px-5">
 		    	<div class="mr-auto p-2">
 		    		<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
 		    	</div>
@@ -90,7 +90,8 @@
 			<!--***-FINAL VIDEOS**-->
 			</div>
 		</div>
-
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<!-- inicio footer -->
 		<div class=" borderFooter" width=device-width>
 			<img class="col-1" src="img/logo PDC.jpg">
