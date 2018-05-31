@@ -17,13 +17,13 @@
 		<header>
 			<div class="container d-flex">
 		    	<div class="mr-auto p-2">
-		    		<a class="textWhite" href="#">Home <span class="sr-only">(current)</span></a>	
+		    		<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
 		    	</div>
 		    	<div class="mr-auto p-2">
-		    		<a class="textWhite" href="#">Page 1</a>
+		    		<a class="textBlack" href="#">Page 1</a>
 		    	</div>
 		    	<div class="mr-auto p-2">
-		    		<a class="textWhite" href="#">Page 2</a>
+		    		<a class="textBlack" href="#">Page 2</a>
 		    	</div>
 		      	<div class="mr-auto p-2">
 					<a>
@@ -31,10 +31,10 @@
 		      		</a>
 		      	</div>
 				<div class="ml-auto p-2">
-					<a class="textWhite" href="#">ESP</a>
+					<a class="textBlack" href="#">ESP</a>
 				</div>
   				<div class="ml-auto p-2">
-  					<a class="textWhite" href="#">CAT</a>
+  					<a class="textBlack" href="#">CAT</a>
   				</div>
 		    </div>	
 		</header>
