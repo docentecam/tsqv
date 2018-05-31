@@ -1,6 +1,14 @@
-.visible{display: none;}
+.borderFooter{
+	border-top: 2px solid #E2E2E2;
+}
+.visible{
+	display: none;
+}
 .oculto{display: block;}
 .row{
 	margin: 0;
 	padding: 0;
+}
+.textBlack{
+	color:#000000;
 }
