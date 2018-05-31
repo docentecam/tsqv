@@ -42,7 +42,7 @@
 
 
 		<!-- inicio Normatives del concurs________________________________________________________________ -->
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm text-center mt-5" >
 				<h1>
 					<span class="CA">Tu si que vales</span>
@@ -74,10 +74,10 @@
 				Más info al 93 256 49 01 / 617 252 908</span>
 			</div>
 		</div>
-	</div>
+	</div> -->
 		
 				<div class="row">
-					<div class="col-sm text-center mt-5">
+					<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
 						<h1>
 							<span class="CA">Tu si que vales</span>
 							<span class="ES" style="display: none" >Tu si que vales</span>
@@ -88,8 +88,8 @@
 						<span class="ES">Si tienes alguna habilidad, talento, tocas algún instrumento, te gusta bailar, cantar,hacer playback, circo, teatro, magia o cualquier cosa estrambótica no te lo pienses y </span><span class="CA" style="display: none">Si tens alguna habilitat, talent, toques algun instrument, t’agrada ballar, cantar, fer
 				        playback, circ, teatre, màgia o qualsevol cosa estrambòtica no t’ho pensis i apunta’t! </span><br>
 						<span class="ES">¡apúntate! Concurso con premios!</span><span class="CA" style="display: none" >És un concurs amb premis!</span><br>
-						<span class="ES">Descarga el diptico en los siguientes idiomas en  català, castellà, àrab, xinés i wolof<br><a href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a></span><br>
-						<span class="CA" style="display: none">Descarrega el diptico en els següents idiomes en català, castellà, àrab, xinés i wolof<br><a href="documents/TSQVDptc.pdf" target="_blank">prem aqui</a></span><br>	
+						<span class="ES">Descarga el diptico en los siguientes idiomas en  català, castellà, àrab, xinés i wolof<br><a class="btn btn-outline-secondary" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a></span><br>
+						<span class="CA" style="display: none">Descarrega el diptico en els següents idiomes en català, castellà, àrab, xinés i wolof<br><a class="btn btn-outline-secondary" href="documents/TSQVDptc.pdf" target="_blank">prem aqui</a></span><br>	
 					</div>
 				</div>
 				<div class="row">
