@@ -107,8 +107,6 @@
 			</div>
 		</div>
 	</div>
-		
->>>>>>> 616765747b6a3f6149e9a0d3853da6f2cd84c1ea
 				<div class="row">
 					<div class="col-sm text-center mt-5">
 						<h1>
