@@ -91,7 +91,8 @@
 				<div class="row">
 					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
 		
-					<form id="formVideo" class="col-12">
+					<form id="formVideo" class="col-12" method="GET" action="models/videos.php">
+						<input type="hidden" name="acc" value="i">
 						Introdueix el link del video:<br>
 						<input type="text" name="urlVideo">
 						
