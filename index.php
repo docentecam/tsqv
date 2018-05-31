@@ -12,6 +12,18 @@
 		
 	</head>
 	<body>
+		<!-- inicio Pàgina principal -->
+		<div id="divJsInicio">			
+				<div class="divInicio">
+				<img src="img/TSQVDptc-1.png" class="img-fluid imgInicio">
+		</div>
+
+		</div>
+
+		<?php
+		require("models/videos.php");
+		?>
+
 		<!-- TODO: menu principal -->
 		<header>
 			<!-- <div class="container d-flex d-block fixed-top bg-white mb-5"> -->
@@ -120,7 +132,8 @@
 				<div class="row">
 					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
 		
-					<form id="formVideo" class="col-12">
+					<form id="formVideo" class="col-12" method="GET" action="models/videos.php">
+						<input type="hidden" name="acc" value="i">
 						Introdueix el link del video:<br>
 						<input type="text" name="urlVideo">
 						
@@ -129,12 +142,38 @@
 					</form>
 				</div>
 			<!-- fin form -->	
-			<!--****-COMIENZO VIDEOS***-->
-			<!--***-FINAL VIDEOS**-->
+			
 			</div>
 		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+		<!--****-COMIENZO VIDEOS***-->
+		
+			
+					<div class="container">
+						<div class="row">
+				<?php
+				$resultVideos= listadoVideos();
+				while($row=mySqli_fetch_array($resultVideos))
+				{
+						 
+				?>
+		  					
+								<div class="col-6 mx-2 embed-responsive embed-responsive-16by9 mt-4">
+						  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
+								</div>
+
+				<?php
+				}
+				?>
+					</div>
+			 	</div>
+			<!-- ***-FINAL VIDEOS** -->
+
+
+
+
 		<!-- inicio footer -->
 		<footer class="mx-5 borderFooter">
 			<img class="col-lg-1 col-sm-4 col-md-1 img-fluid" src="img/logo PDC.jpg">
@@ -160,7 +199,20 @@
 
 			  	miDiv.className="oculto";
 			  	console.log(miDiv.className);
-			});
+
+			  	var ventana_ancho = $(window).width();
+
+				var ventana_alto = $(window).height();
+
+				console.log(ventana_ancho+' '+ventana_alto);
+
+				var fullScreen=document.getElementById("divJsInicio");
+
+			        fullScreen.style.height = ventana_alto;
+			        fullScreen.style.width = ventana_ancho;
+			        fullScreen.style.color = 'blue';
+
+				});
 		</script>
 	</body>
 </html>
