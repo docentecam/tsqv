@@ -12,6 +12,14 @@
 		
 	</head>
 	<body>
+		<!-- inicio Pàgina principal -->
+		<div id="divJsInicio">			
+				<div class="divInicio">
+				<img src="img/TSQVDptc-1.png" class="img-fluid imgInicio">
+		</div>
+
+		</div>
+
 
 		<!-- TODO: menu principal -->
 		<header>
@@ -124,7 +132,20 @@
 
 			  	miDiv.className="oculto";
 			  	console.log(miDiv.className);
-			});
+
+			  	var ventana_ancho = $(window).width();
+
+				var ventana_alto = $(window).height();
+
+				console.log(ventana_ancho+' '+ventana_alto);
+
+				var fullScreen=document.getElementById("divJsInicio");
+
+			        fullScreen.style.height = ventana_alto;
+			        fullScreen.style.width = ventana_ancho;
+			        fullScreen.style.color = 'blue';
+
+				});
 		</script>
 	</body>
 </html>
