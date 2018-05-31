@@ -68,7 +68,7 @@
 					</div>
 				</div><br>
 				<div class="row">
-					<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-2 text-center bg-light" >
+					<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" >
 						<span class="ES text-center bg-info text-white" >INSCRIPCIONES</span><span class="CA bg-info text-white" style="display: none">INSCRIPCIONS </span><br>
 						<span class="ES" >Hasta el 10 de junio, presencialmente en el Centre Cívic Besòs</span><span class="CA" style="display: none">Fins al 10 de juny presencialment al Centre Cívic Besòs </span><br>
 						<span class="ES" >(rambla Prim 87-89, Metro L4 Besòs Mar)</span><span class="CA" style="display: none">(rambla Prim 87-89, Metro L4 Besòs Mar)</span><br>
