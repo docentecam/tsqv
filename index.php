@@ -10,9 +10,9 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="js/functions.js"></script>
 		
-		
 	</head>
 	<body>
+
 		<!-- TODO: menu principal -->
 		<header>
 			<div class="container d-flex">
@@ -83,11 +83,13 @@
 			<!-- inicio form -->
 				<div class="row">
 					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
+		
 					<form id="formVideo" class="col-12">
 						Introdueix el link del video:<br>
 						<input type="text" name="urlVideo">
 						
-						<input type="submit" name="subirVideo" value="Pujar video">
+						<input type="submit" name="subirVideo" value="Pujar video" onclick="muestraDivVideo('subir')">
+
 					</form>
 				</div>
 			<!-- fin form -->	
@@ -98,16 +100,16 @@
 
 		<!-- inicio footer -->
 		<footer class="mx-5 borderFooter">
-			<img class="col-1 img-fluid" src="img/logo PDC.jpg">
-			<img class="col-1 img-fluid" src="img/logocalco2_sense_marc.jpg">
-			<img class="col-1 img-fluid" src="img/cazcarra.jpg">
-			<img class="col-1 img-fluid" src="img/BFD_DEFINITIVO.jpg">
-			<img class="col-1 img-fluid" src="img/Logo_DTASF-Direccio_General_Accio_Civica_Comunitaria (1).jpg">
-			<img class="col-1 img-fluid" src="img/Aj+basa_2014_rodona_color-fonsblanc.png">
-			<img class="col-1 img-fluid" src="img/Logo-CasesOficis-2018- color.png">
-			<img class="col-1 img-fluid" src="img/Logotipo_SOC_color_png.png">
-			<img class="col-1 img-fluid" src="img/Logo Generalitat color_png.png">
-			<img class="col-1 img-fluid" src="img/MEYSS_color.jpg">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/logo PDC.jpg">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/logocalco2_sense_marc.jpg">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/cazcarra.jpg">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/BFD_DEFINITIVO.jpg">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/Logo_DTASF-Direccio_General_Accio_Civica_Comunitaria (1).jpg">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/Aj+basa_2014_rodona_color-fonsblanc.png">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/Logo-CasesOficis-2018- color.png">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/Logotipo_SOC_color_png.png">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/Logo Generalitat color_png.png">
+			<img class="col-lg-1 col-sm-2 col-md-1 img-fluid" src="img/MEYSS_color.jpg">
 		</footer>
 		<!-- fin footer -->
 
@@ -115,5 +117,13 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script>	
+			$( document ).ready(function() {
+			    var miDiv=document.getElementById("formVideo");
+
+			  	miDiv.className="oculto";
+			  	console.log(miDiv.className);
+			});
+		</script>
 	</body>
 </html>

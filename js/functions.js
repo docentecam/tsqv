@@ -1,11 +1,10 @@
+
 function muestraDivVideo(valor){
-	var miDiv=document.getElementById("Divcambio");
-	if(valor=="Mostrar Div") {
-		valor="Ocultar div";
-		miDiv.className="Mostrar";
+	 var miDiv=document.getElementById("formVideo");
+	if(valor=="vid") {
+		miDiv.className="visible";
 	}
 	else{
-		vid.value="Mostrar div";
-		miDiv.className="Oculto";
+		miDiv.className="oculto";
 	}
 }

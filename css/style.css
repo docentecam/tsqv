@@ -1,12 +1,11 @@
+ 
 
 .borderFooter{
 	border-top:3px solid #E2E2E2;
 }
 .visible{display: none;}
 
-.borderFooter{
-	border-top: 2px solid #E2E2E2;
-}
+
 .visible{
 	display: none;
 }
@@ -15,11 +14,23 @@
 .row{
 	margin: 0;
 	padding: 0;
-<<<<<<< HEAD
-
 
 }
 .textBlack{
 	color:#000000;
 
 }
+
+.visible{display: block;}
+.oculto{display: none;}
+.row {
+	margin: 0;
+}
+.borderFooter{
+	border-top: 2px solid #E2E2E2;
+}
+.textBlack{
+	color:#000000;
+}
+
+ 
