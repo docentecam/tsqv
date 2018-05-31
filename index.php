@@ -82,7 +82,10 @@
 				<div class="row">
 					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
 					<form id="formVideo" class="col-12">
-						<input type="text" name="">
+						Introdueix el link del video:<br>
+						<input type="text" name="urlVideo">
+						
+						<input type="submit" name="subirVideo" value="Pujar video">
 					</form>
 				</div>
 			<!-- fin form -->	
