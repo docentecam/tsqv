@@ -50,7 +50,7 @@
 	  				<a class="textBlack" href="#">CAT</a>
 	  			</div> -->
 			<!-- </div> -->
-			<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+			<!-- <div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"> -->
 				<div class="container d-flex d-block fixed-top bg-white mb-5">
 					 <div class="mr-auto p-2">
 			    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
@@ -76,7 +76,7 @@
 	  			</div>
 					
 				</div>
-			</div>	
+			<!-- </div> -->	
 		</header>
 
 
@@ -86,7 +86,7 @@
 				<div class="row">
 					<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg">
 						<h1>
-							<span class="CA">Tu si que vales</span>
+							<span class="CA" >Tu si que vales</span>
 							<span class="ES" style="display: none" >Tu si que vales</span>
 						</h1>
 						<span class="ES">Concursos de talentos del barrio el Besòs i el Maresme</span><span class="CA" style="display: none">Concurs de talents al barri el Besòs i el Maresme</span><br>
