@@ -26,8 +26,8 @@
 
 		<!-- TODO: menu principal -->
 		<header>
-			<!-- <div class="container d-flex d-block fixed-top bg-white mb-5"> -->
-			    <!-- <div class="mr-auto p-2">
+			<div class="container d-flex d-block fixed-top bg-white mb-5">
+			    <div class="mr-auto p-2">
 			    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
 			    </div>
 			    <div class="mr-auto p-2">
@@ -36,55 +36,26 @@
 			    <div class="mr-auto p-2">
 			    	<a class="textBlack" href="#">Page 2</a>
 			    </div>
-			    <div class="mr-auto p-2">
-					<a class="textBlack">
-			      		<h1>
-			      			Tu Si Que Vales!
-			      		</h1>
-			      	</a>
+			    <div class="mr-auto p-2 textBlack ">
+			    	<!-- <h1> -->
+			    	<h1 class="mrCss">
+			      		Tu Si Que Vales!
+			      	</h1>
+			      	<!-- </h1> -->
 			    </div>
 				<div class="ml-auto p-2">
 					<a class="textBlack" href="#">ESP</a>
 				</div>
 	  			<div class="ml-auto p-2">
 	  				<a class="textBlack" href="#">CAT</a>
-	  			</div> -->
-			<!-- </div> -->
-			<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-				<div class="container d-flex d-block fixed-top bg-white mb-5">
-					 <div class="mr-auto p-2">
-			    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
-			    </div>
-			    <div class="mr-auto p-2">
-			    	<a class="textBlack" href="#">Page 1</a>
-			    </div>
-			    <div class="mr-auto p-2">
-			    	<a class="textBlack" href="#">Page 2</a>
-			    </div>
-			    <div class="mr-auto p-2">
-					<a class="textBlack">
-			      		<h1>
-			      			Tu Si Que Vales!
-			      		</h1>
-			      	</a>
-			    </div>
-				<div class="ml-auto p-2">
-					<a class="textBlack" href="#">ESP</a>
-				</div>
-	  			<div class="ml-auto p-2">
-	  				<a class="textBlack" href="#">CAT</a>
-	  			</div>
-					
-				</div>
-			</div>	
+	  			</div>	
+			</div>
 		</header>
-
-
 		<!-- inicio Normatives del concurs________________________________________________________________ -->
 		
 		
 				<div class="row">
-					<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+					<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg">
 						<h1>
 							<span class="CA">Tu si que vales</span>
 							<span class="ES" style="display: none" >Tu si que vales</span>
@@ -101,7 +72,7 @@
 				</div>
 				<div class="row">
 					<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-							<span class="ES bg-info text-white">3 CATEGORÍAS:</span><span class="CA bg-info text-white" style="display: none">3 CATEGORIES</span><br>
+							<span class="ES colorsSubtitulos text-white">3 CATEGORÍAS:</span><span class="CA colorsSubtitulos text-white" style="display: none">3 CATEGORIES</span><br>
 							<span class="ES"><i class="fas fa-child"></i>Infantil (hasta 12 años)</span><span class="CA" style="display: none"><i class="fas fa-child"></i>Infantil (fins a 12 anys)</span><br>
 							<span class="ES"><i class="fas fa-graduation-cap"></i>Juvenil (hasta 25 años)</span><span class="CA" style="display: none"><i class="fas fa-graduation-cap"></i>Juvenil (fins a 25 anys)</span><br>
 							<span class="ES"><i class="fas fa-male"></i>Adulta (mayores 25 años)</span><span class="CA" style="display: none"><i class="fas fa-male"></i>Adults (majors 25 anys)</span>
@@ -109,8 +80,8 @@
 					</div>
 				</div><br>
 				<div class="row">
-					<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" >
-						<span class="ES text-center bg-info text-white" >INSCRIPCIONES</span><span class="CA bg-info text-white" style="display: none">INSCRIPCIONS </span><br>
+					<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg" >
+						<span class="ES text-center colorsSubtitulos text-white" >INSCRIPCIONES</span><span class="CA colorsSubtitulos text-white" style="display: none">INSCRIPCIONS </span><br>
 						<span class="ES" >Hasta el 10 de junio, presencialmente en el Centre Cívic Besòs</span><span class="CA" style="display: none">Fins al 10 de juny presencialment al Centre Cívic Besòs </span><br>
 						<span class="ES" >(rambla Prim 87-89, Metro L4 Besòs Mar)</span><span class="CA" style="display: none">(rambla Prim 87-89, Metro L4 Besòs Mar)</span><br>
 						 <span class="ES" >o enviando un mail a tusiquevales.bm@gmail.com </span><span class="CA" style="display: none">o enviant un mail a tusiquevales.bm@gmail.com</span><br>
