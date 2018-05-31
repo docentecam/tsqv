@@ -10,52 +10,57 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="js/functions.js"></script>
 		
-		<!-- TODO: menu principal -->
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  		<!-- <a class="navbar-brand" href="#">Navbar</a> -->
-		  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		   			 <span class="navbar-toggler-icon"></span>
-		  		</button>
-		  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    		<div class="navbar-nav">
-		      			<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-		      			<a class="nav-item nav-link" href="#">Page 1</a>
-		      			<a class="nav-item nav-link" href="#">Page 2</a>
-		      			<a class="nav-item nav-link">
-		      				<h1>Tu Si Que Vales!</h1>
-		      			</a>
-		      			<a class="nav-item nav-link" href="#">ESP</a>
-		      			<a class="nav-item nav-link" href="#">CAT</a>
-		    		</div>
-		  		</div>
-			</nav>
-		</header>
+		
 	</head>
 	<body>
-
+		<!-- TODO: menu principal -->
+		<header>
+			<div class="container d-flex">
+		    	<div class="mr-auto p-2">
+		    		<a href="#">Home <span class="sr-only">(current)</span></a>	
+		    	</div>
+		    	<div class="mr-auto p-2">
+		    		<a href="#">Page 1</a>
+		    	</div>
+		    	<div class="mr-auto p-2">
+		    		<a href="#">Page 2</a>
+		    	</div>
+		      	<div class="mr-auto p-2">
+					<a>
+		      			<h1>Tu Si Que Vales!</h1>
+		      		</a>
+		      	</div>
+				<div class="ml-auto p-2">
+					<a href="#">ESP</a>
+				</div>
+  				<div class="ml-auto p-2">
+  					<a href="#">CAT</a>
+  				</div>		      			
+		    </div>	
+		</header>
 
 
 		<!-- inicio Normatives del concurs________________________________________________________________ -->
 		<div class="row">
-			<div class="col-sm">
-				<h2>
-					<span class="CA"></span>
+			<div class="col-sm text-center" >
+				<h1>
+					<span class="CA">Tu si que vales</span>
 					<span class="ES">Tu si que vales</span>
-				</h2>
-				<span>Concursos de talentos del barrio el Besòs i el Maresme Viernes 15 de junio de 20h a 23h Rambla Prim con c. Ferrer Bassa</span>
-				<div>(Metro Besòs Mar-L4)</div>
-				<span>Si tienes alguna habilidad, talento, tocas algún instrumento, te gusta bailar, cantar,hacer playback, circo, teatro, magia o cualquier cosa estrambótica no te lo pienses y </span>
-				<div>¡apúntate! Concurso con premios!</div>
-
-
-
-				<span></span>
+				</h1>
+				<span class="ES">Concursos de talentos del barrio el Besòs i el Maresme Viernes 15 de junio de 20h a 23h Rambla Prim con c. Ferrer Bassa</span><br>
+				<span class="ES">(Metro Besòs Mar-L4)</span><br>
+				<span class="ES">Si tienes alguna habilidad, talento, tocas algún instrumento, te gusta bailar, cantar,hacer playback, circo, teatro, magia o cualquier cosa estrambótica no te lo pienses y </span><br>
+				<span class="ES">¡apúntate! Concurso con premios!</span><br>
+				<span class="ES">¿Deseas leerlo en otro idioma? lo tenemos en  català, castellà, àrab, xinés i wolof<br><a href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a></span>	
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm">
-				lo que va de textocategorias
+					<span class="ES">3 CATEGORÍAS:</span>
+					<span class="ES">Infantil (hasta 12 años)</span>
+					<span class="ES">Juvenil (hasta 25 años)</span>
+					<span class="ES">Adulta (mayores 25 años)</span>
+				
 			</div>
 		</div>
 		<div class="row">
@@ -63,26 +68,29 @@
 				lo que va de inscripciones
 			</div>
 		</div>
+	</div>
 <!-- 		fi de normatives_______________________________________________________________________________________
  -->
 
 
 
 		<!--*************************************COMIENZO VIDEOS*******************-->
+		<div class="row">
+			<div id="idVideos">
 
-		<div id="idVideos">
-
-		<!-- inicio form -->
-			<div>
-				<button onclick="muestraDivVideo()"><i class="far fa-plus"></i></button>
-				<form id="formVideo">
-					<input type="text" name="">
-				</form>
+			<!-- inicio form -->
+				<div class="row">
+					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
+					<form id="formVideo" class="col-12">
+						<input type="text" name="">
+					</form>
+				</div>
+			<!-- fin form -->	
+			<!--****-COMIENZO VIDEOS***-->
+			<!--***-FINAL VIDEOS**-->
 			</div>
-		<!-- fin form -->	
-		<!--****-COMIENZO VIDEOS***-->
-		<!--***-FINAL VIDEOS**-->
 		</div>
+
 		<!-- inicio footer -->
 		<div class=" borderFooter" width=device-width>
 			<img class="col-1" src="img/logo PDC.jpg">
@@ -93,6 +101,7 @@
 			
 		</div>
 		<!-- fin footer -->
+
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
