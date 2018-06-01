@@ -131,7 +131,7 @@
 						 
 				?>
 		  					
-							<div class="col-5 ml-5 mt-4">	
+							<div class="col-lg-5 ml-5 mt-4 col-sm-10">	
 								<div class=" embed-responsive embed-responsive-16by9 ">
 						  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
 								</div>
