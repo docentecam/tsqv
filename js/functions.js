@@ -18,37 +18,25 @@ function mostrarIdiomes()
 	var ocultaCA;
 	var ocultaES;
 	if(getCookie('selIdi')=="ES") {
+			console.log("intenta cambiar idioma a Español");
 		ocultaCA="none";
 		ocultaES="inline";
 	}
 	else{
+		console.log("intenta cambiar idioma a CATALAN");
 		ocultaCA="inline";
 		ocultaES="none";
 	}
+	console.log("Tenemos:"+ocultaCA+"-"+ocultaES);
 	objetosCA=document.getElementsByClassName("CA");
 	objetosES=document.getElementsByClassName("ES");
 	for(i=0;i<objetosCA.length;i++){
+		console.log("Prueba cambio "+ocultaCA+"-"+ocultaES);
 		objetosCA[i].style.display=ocultaCA;
 		objetosES[i].style.display=ocultaES;
 	}
+	console.log(i);
 }
-
-
-// Política de cookies
-$( document ).ready(function() {
-   	if(!getCookie('selIdi')){
-   		setCookie('selIdi','CA',365);
-   		console.log("Creamos cookie y seleccionamos catalàn");
-   	}
-   	else
-   	{
-   		console.log("Hay cookie");
-   	}
-   	objetosCA=document.getElementsByClassName("CA");
-	objetosES=document.getElementsByClassName("ES");
-   	mostrarIdiomes();
-   	//document.cookie = 'selIdi' +  '=; expires=Thu, 01-Jan-70 00:00:01 GMT;';
-});
 
 function getCookie(c_name){
 	var c_value = document.cookie;

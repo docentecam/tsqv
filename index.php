@@ -5,26 +5,53 @@
 		<link rel="icon" href="img/favicon.png" type="image/x-icon">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
 		<script src="js/functions.js"></script>
+		<script>	
+			$(document).ready(function() {
+				if(!getCookie('selIdi')){
+			   		setCookie('selIdi','ES',365);
+			   	}
+			   	objetosCA=document.getElementsByClassName("CA");
+				objetosES=document.getElementsByClassName("ES");
+			   	mostrarIdiomes();
+
+
+			   //  var miDiv=document.getElementById("formVideo");
+			  	// miDiv.className="oculto";
+			  	// console.log(miDiv.className);
+
+			 //  	var ventana_ancho = $(window).width();
+				// var ventana_alto = $(window).height();
+				// console.log(ventana_ancho+' '+ventana_alto);
+				// var fullScreen=document.getElementById("divJsInicio");
+			 //        fullScreen.style.height = ventana_alto;
+			 //        fullScreen.style.width = ventana_ancho;
+			 //        fullScreen.style.color = 'blue';
+				});
+		</script>
 		
 	</head>
 	<body>
-		<!-- inicio Pàgina principal -->
-		<div id="divJsInicio">			
-				<div class="divInicio">
-				<img src="img/TSQVDptc-1.png" class="img-fluid imgInicio">
-		</div>
-
-		</div>
-
 		<?php
 		require("models/videos.php");
-		?>
+		?><!-- inicio Pàgina principal -->
+		<div id="divJsInicio" class="row">			
+			<div class="divInicio col-12">
+				<!-- <img src="img/TSQVDptc-1.png" class="img-fluid"> -->
+			</div>
+		</div>
 
-		<!-- TODO: menu principal-->
 		<header>
 			<div class="container d-flex d-block fixed-top mb-5 bg-white">
 			    <div class="mr-auto p-2">
@@ -37,117 +64,104 @@
 			    	<a class="textBlack" href="#">Page 2</a>
 			    </div>
 			    <div class="mr-auto p-2 textBlack ">
-			    	<!-- <h1> -->
-			    	<h1 class="mrCss">
-			      		Tu Si Que Vales
-			      	</h1>
-			      	<!-- </h1> -->
+			    	<h1 class="mrCss"> Tu Si Que Vales</h1>
 			    </div>
 				<div class="ml-auto p-2">
-					<a class="textBlack" href="#">ESP</a>
+					<a class="textBlack" onclick="canviaIdioma('ES')">ESP</a>
 				</div>
 	  			<div class="ml-auto p-2">
-	  				<a class="textBlack" href="#">CAT</a>
+	  				<a class="textBlack" onclick="canviaIdioma('CA')">CAT</a>
 	  			</div>	
 			</div>
 		</header>
-		<!-- inicio Normatives del concurs________________________________________________________________ -->
-		
-		
-				<div class="row">
-					<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg">
-						<h1>
-							<span class="CA">Tu si que vales</span>
-							<span class="ES" style="display: none" >Tu si que vales</span>
-						</h1>
-						<span class="ES">Concursos de talentos del barrio el Besòs i el Maresme</span><span class="CA" style="display: none">Concurs de talents al barri el Besòs i el Maresme</span><br>
-						<span class="ES" >Viernes 15 de junio de 20h a 23h Rambla Prim con c. Ferrer Bassa</span><span class="CA" style="display: none">Divendres 15 de juny de 20h a 23h a Rambla Prim amb c. Ferrer Bassa </span><br>
-						<span class="ES" >(Metro Besòs Mar-L4)</span> <span class="CA" style="display: none">(Metro Besòs Mar-L4)</span><br>
-						<span class="ES">Si tienes alguna habilidad, talento, tocas algún instrumento, te gusta bailar, cantar,hacer playback, circo, teatro, magia o cualquier cosa estrambótica no te lo pienses y </span><span class="CA" style="display: none">Si tens alguna habilitat, talent, toques algun instrument, t’agrada ballar, cantar, fer
-				        playback, circ, teatre, màgia o qualsevol cosa estrambòtica no t’ho pensis i apunta’t! </span><br>
-						<span class="ES">¡apúntate! Concurso con premios!</span><span class="CA" style="display: none" >És un concurs amb premis!</span><br>
-						<span class="ES">Descarga el diptico en los siguientes idiomas en  català, castellà, àrab, xinés i wolof<br><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a></span><br>
-						<span class="CA" style="display: none">Descarrega el diptico en els següents idiomes en català, castellà, àrab, xinés i wolof<br><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">prem aqui</a></span><br>	
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-							<span class="ES colorsSubtitulos text-white">3 CATEGORÍAS:</span><span class="CA colorsSubtitulos text-white" style="display: none">3 CATEGORIES</span><br>
-							<span class="ES"><i class="fas fa-child"></i>Infantil (hasta 12 años)</span><span class="CA" style="display: none"><i class="fas fa-child"></i>Infantil (fins a 12 anys)</span><br>
-							<span class="ES"><i class="fas fa-graduation-cap"></i>Juvenil (hasta 25 años)</span><span class="CA" style="display: none"><i class="fas fa-graduation-cap"></i>Juvenil (fins a 25 anys)</span><br>
-							<span class="ES"><i class="fas fa-male"></i>Adulta (mayores 25 años)</span><span class="CA" style="display: none"><i class="fas fa-male"></i>Adults (majors 25 anys)</span>
-	
-					</div>
-				</div><br>
-				<div class="row">
-					<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg" >
-						<span class="ES text-center colorsSubtitulos text-white" >INSCRIPCIONES</span><span class="CA colorsSubtitulos text-white" style="display: none">INSCRIPCIONS </span><br>
-						<span class="ES" >Hasta el 10 de junio, presencialmente en el Centre Cívic Besòs</span><span class="CA" style="display: none">Fins al 10 de juny presencialment al Centre Cívic Besòs </span><br>
-						<span class="ES" >(rambla Prim 87-89, Metro L4 Besòs Mar)</span><span class="CA" style="display: none">(rambla Prim 87-89, Metro L4 Besòs Mar)</span><br>
-						 <span class="ES" >o enviando un mail a tusiquevales.bm@gmail.com </span><span class="CA" style="display: none">o enviant un mail a tusiquevales.bm@gmail.com</span><br>
-						<span class="ES">Más info al 93 256 49 01 / 617 252 908</span><span class="CA" style="display: none">Més info al 93 256 49 01 / 617 252 908</span>
-					</div>
-				</div>
-	
-
-<!-- 		fi de normatives_______________________________________________________________________________________
- -->
-
-
-
-		<!--*************************************COMIENZO VIDEOS*******************-->
 		<div class="row">
-			<div id="idVideos">
-
-			<!-- inicio form -->
-				<div class="row">
-					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
-		
-					<form id="formVideo" class="col-12" method="GET" action="models/videos.php">
-						<input type="hidden" name="acc" value="i">
-						Introdueix el link del video:<br>
-						<input type="text" name="urlVideo">
+			<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg">
+				<h1>Tu si que vales</h1>
+				<span class="ES">Concursos de talentos del barrio el Besòs i el Maresme<br/>
+					Viernes 15 de junio de 20h a 23h Rambla Prim con c. Ferrer Bassa<br/>
+					(Metro Besòs Mar-L4)<br/>
+					Si tienes alguna habilidad, talento, tocas algún instrumento, te gusta bailar, cantar,hacer playback, circo, teatro, magia o cualquier cosa estrambótica no te lo pienses y ¡apúntate! Concurso con premios!<br/>
+					Descarga el diptico en los siguientes idiomas: Catalán, Castellano, Árabe, Chino i wolof<br/><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a>
+				</span><br>
 						
-						<input type="submit" name="subirVideo" value="Pujar video" onclick="muestraDivVideo('subir')">
 
-					</form>
-				</div>
-			<!-- fin form -->	
-			
+				<span class="CA" style="display: none">
+					Concurs de talents al barri el Besòs i el Maresme<br/>
+					Divendres 15 de juny de 20h a 23h a Rambla Prim amb c. Ferrer Bassa<br/>
+					(Metro Besòs Mar-L4)<br/>
+					Si tens alguna habilitat, talent, toques algun instrument, t’agrada ballar, cantar, fer playback, circ, teatre, màgia o qualsevol cosa estrambòtica no t’ho pensis i apunta’t! És un concurs amb premis!<br/>
+					Descarrega el díptic en els següents idiomes: en Català, Castellà, Àrab, Xinés i wolof<br/><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">prem aqui</a>
+				</span><br>	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+				<span class="ES">
+					<span class="colorsSubtitulos text-white">3 CATEGORÍAS:</span><br/>
+					<i class="fas fa-child"></i>Infantil (hasta 12 años)<br/>
+					<i class="fas fa-graduation-cap"></i>Juvenil (hasta 25 años)<br/>
+					<i class="fas fa-male"></i>Adulta (mayores 25 años)
+				</span>
+				<span class="CA" style="display: none">
+					<span class="colorsSubtitulos text-white">3 CATEGORIES</span><br/>
+					<i class="fas fa-child"></i>Infantil (fins a 12 anys)<br/>
+					<i class="fas fa-graduation-cap"></i>Juvenil (fins a 25 anys)<br/>
+					<i class="fas fa-male"></i>Adults (majors 25 anys)
+				</span>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg" >
+				<span class="ES" >
+					<span class="text-center colorsSubtitulos text-white">INSCRIPCIONES</span><br/>
+					Hasta el 10 de junio, presencialmente en el Centre Cívic Besòs<br/>
+					(rambla Prim 87-89, Metro L4 Besòs Mar)<br/>
+					o enviando un mail a tusiquevales.bm@gmail.com<br/>
+					Más info en el 93 256 49 01 / 617 252 908
+				</span>
+				<span class="CA" style="display: none">
+					<span class="colorsSubtitulos text-white">INSCRIPCIONS </span><br/>
+					Fins al 10 de juny presencialment al Centre Cívic Besòs<br/>
+					(rambla Prim 87-89, Metro L4 Besòs Mar)<br/>
+					o enviant un mail a tusiquevales.bm@gmail.com<br/>
+					Més info al 93 256 49 01 / 617 252 90
+				</span>
 			</div>
 		</div>
 
+		<div class="row">
+			<div id="idVideos">
+				<div class="row">
+					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
+					<form id="formVideo" class="col-12" method="GET" action="models/videos.php">
+						<input type="hidden" name="acc" value="i">
+						Introdueix el link del video:<br>
+						<input type="text" name="urlVideo">		
+						<input type="submit" name="subirVideo" value="Pujar video" onclick="muestraDivVideo('subir')">
+					</form>
+				</div>
+			</div>
+		</div>
 
-
-		<!--****-COMIENZO VIDEOS***-->
-		
-			
-					<div class="container">
-						<div class="row textcenter">
+		<div class="container">
+			<div class="row textcenter">
 				<?php
-				$resultVideos= listadoVideos();
-				while($row=mySqli_fetch_array($resultVideos))
-				{
-						 
+					$resultVideos= listadoVideos();
+					while($row=mySqli_fetch_array($resultVideos))
+					{		 
 				?>
 		  					
-							<div class="col-lg-5 ml-5 mt-4 col-sm-10">	
-								<div class=" embed-responsive embed-responsive-16by9 ">
-						  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
-								</div>
+						<div class="col-lg-5 ml-5 mt-4 col-sm-10">	
+							<div class=" embed-responsive embed-responsive-16by9 ">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
 							</div>
-
+						</div>
 				<?php
-				}
+					}
 				?>
-					</div>
-			 	</div>
-			<!-- ***-FINAL VIDEOS** -->
-
-
-
-
-		<!-- inicio footer -->
+			</div>
+		</div>
+		
 		<footer class="mx-5 borderFooter">
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/logo PDC.jpg">
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/logocalco2_sense_marc.jpg">
@@ -159,35 +173,7 @@
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Logo-CasesOficis-2018- color.png">
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Logotipo_SOC_color_png.png">
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/LogoGeneralitatcolor_png.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/MEYSS_color.jpg">
-			
-		</footer>
-		<!-- fin footer -->
-
-
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<script>	
-			$( document ).ready(function() {
-			    var miDiv=document.getElementById("formVideo");
-
-			  	miDiv.className="oculto";
-			  	console.log(miDiv.className);
-
-			  	var ventana_ancho = $(window).width();
-
-				var ventana_alto = $(window).height();
-
-				console.log(ventana_ancho+' '+ventana_alto);
-
-				var fullScreen=document.getElementById("divJsInicio");
-
-			        fullScreen.style.height = ventana_alto;
-			        fullScreen.style.width = ventana_ancho;
-			        fullScreen.style.color = 'blue';
-
-				});
-		</script>
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/MEYSS_color.jpg">	
+		</footer>		
 	</body>
 </html>
