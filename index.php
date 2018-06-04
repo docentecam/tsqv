@@ -56,23 +56,23 @@
 		<header>
 
 			<div class="row">
-				<div class="container d-flex d-block fixed-top mb-5 bg-white col-12">
-				    <div class="mr-auto p-2 col-1">
-				    	<a class="textBlack" href="#pagInfo" id="aInfo">Normativa</a>
+				<div class="d-flex d-block fixed-top mb-5 bg-white col-12 menuPeq">
+				    <div class="col-2">
+				    	<a class="text-dark" href="#pagInfo" id="aInfo">Normativa</a>
 				    </div>
-				    <div class="mr-auto p-2 col-1">
-				    	<a class="textBlack" href="#">Videos</a>
+				    <div class="col-2">
+				    	<a class="text-dark" href="#">Videos</a>
 				    </div>
-				    <div class="mr-auto p-2 col-4">
-				    	<a href="#" class="textBlack">
-				    		<h1 class="mrCss"> Tu Si Que Vales</h1>
+				    <div class="col text-center mt-1">
+				    	<a href="#" class="text-dark">
+				    		<h1 class="menuPeq"> Tu Si Que Vales</h1>
 				    	</a>
 				    </div>
-					<div class="ml-auto p-2 col-0">
-						<a class="textBlack cursorPC" onclick="canviaIdioma('ES')">ESP</a>
+					<div class="text-dark col-2">
+						<a class="cursorPC" onclick="canviaIdioma('ES')">ESP</a>
 					</div>
-		  			<div class="ml-auto p-2 col-0">
-		  				<a class="textBlack cursorPC" onclick="canviaIdioma('CA')">CAT</a>
+		  			<div class="text-dark col-2">
+		  				<a class="cursorPC" onclick="canviaIdioma('CA')">CAT</a>
 		  			</div>	
 				</div>
 			</div>
