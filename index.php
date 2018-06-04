@@ -47,7 +47,7 @@
 		require("models/videos.php");
 		?><!-- inicio Pàgina principal -->
 
-		<div class="row divInicio">
+		<div class="row divInicio" id="pagInicio">
 			<div class="col"></div>
 			<div class="col-5"><img src="img/TSQVDptc-1.png" class="img-fluid"></div>
 			<div class="col"></div>
@@ -64,10 +64,10 @@
 				    	<a class="textBlack" href="#pagInfo" id="aInfo">Page 1</a>
 				    </div>
 				    <div class="mr-auto p-2 col-1">
-				    	<a class="textBlack" href="#">Page 2</a>
+				    	<a class="textBlack" href="#pagVideos">Page 2</a>
 				    </div>
 				    <div class="mr-auto p-2 textBlack col-4">
-				    	<h1 class="mrCss"> Tu Si Que Vales</h1>
+				    	<a class="mrCss" href="#pagInicio"><h3>Tu Si Que Vales</h3></a>
 				    </div>
 					<div class="ml-auto p-2 col-0">
 						<a class="textBlack cursorPC" onclick="canviaIdioma('ES')">ESP</a>
@@ -133,7 +133,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row"  id="pagVideos">
 			<div id="idVideos">
 				<div class="row">
 					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
