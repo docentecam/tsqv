@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<title>Tu si que vales</title>
 		<link rel="icon" href="img/favicon.png" type="image/x-icon">
 		<meta charset="utf-8">
