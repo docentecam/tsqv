@@ -61,10 +61,10 @@
 				    	<a class="text-dark" href="#pagInfo" id="aInfo">Normativa</a>
 				    </div>
 				    <div class="col-2">
-				    	<a class="text-dark" href="#">Videos</a>
+				    	<a class="text-dark" href="#pagVideos">Videos</a>
 				    </div>
 				    <div class="col text-center mt-1">
-				    	<a href="#" class="text-dark">
+				    	<a href="#pagInicio" class="text-dark">
 				    		<h1 class="menuPeq"> Tu Si Que Vales</h1>
 				    	</a>
 				    </div>
@@ -84,8 +84,8 @@
 					Viernes 15 de junio de 20h a 23h Rambla Prim con c. Ferrer Bassa<br/>
 					(Metro Besòs Mar-L4)<br/>
 					Si tienes alguna habilidad, talento, tocas algún instrumento, te gusta bailar, cantar,hacer playback, circo, teatro, magia o cualquier cosa estrambótica no te lo pienses y ¡apúntate! Concurso con premios!<br/>
-					Descarga el diptico en los siguientes idiomas: Catalán, Castellano, Árabe, Chino i wolof<br/><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a>
-				</span><br>
+					Descarga el diptico en los siguientes idiomas: Catalán, Castellano, Árabe, Chino i wolof<br/><br/><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a>
+				</span>
 						
 
 				<span class="CA" style="display: none">
@@ -93,7 +93,7 @@
 					Divendres 15 de juny de 20h a 23h a Rambla Prim amb c. Ferrer Bassa<br/>
 					(Metro Besòs Mar-L4)<br/>
 					Si tens alguna habilitat, talent, toques algun instrument, t’agrada ballar, cantar, fer playback, circ, teatre, màgia o qualsevol cosa estrambòtica no t’ho pensis i apunta’t! És un concurs amb premis!<br/>
-					Descarrega el díptic en els següents idiomes: en Català, Castellà, Àrab, Xinés i wolof<br/><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">prem aqui</a>
+					Descarrega el díptic en els següents idiomes: en Català, Castellà, Àrab, Xinés i wolof<br/><br/><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">prem aqui</a>
 				</span><br>	
 			</div>
 		</div>
