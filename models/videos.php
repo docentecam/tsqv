@@ -6,6 +6,7 @@
 		$connexio=connect();
 		$resultVideo=mysqli_query($connexio,$mySql); 
 		disconnect($connexio);
+		header('Location: ../index.php'); 
 	}
 	
 	function listadoVideos(){
