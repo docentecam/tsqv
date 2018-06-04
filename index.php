@@ -77,11 +77,11 @@
 		<div class="row" id="pagInfo">
 			<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg">
 				<div><span class="ES colorsSubtitulos">Normativas</span></div>
-				<span class="ES">Concursos de talentos del barrio el Besòs i el Maresme<br/>
+				<span class="ES">Concurso de talentos del barrio el Besòs i el Maresme<br/>
 					Viernes 15 de junio de 20h a 23h Rambla Prim con c. Ferrer Bassa<br/>
 					(Metro Besòs Mar-L4)<br/>
 					Si tienes alguna habilidad, talento, tocas algún instrumento, te gusta bailar, cantar,hacer playback, circo, teatro, magia o cualquier cosa estrambótica no te lo pienses y ¡apúntate! Concurso con premios!<br/>
-					Descarga el diptico en los siguientes idiomas: Catalán, Castellano, Árabe, Chino i wolof<br/><br/><a class="btn custom-btn-class mt-3" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aquí</a>
+					Descarga el diptico en los siguientes idiomas: Catalán, Castellano, Árabe, Chino y Wolof<br/><br/><a class="btn custom-btn-class mt-3" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aquí</a>
 				</span>
 						
 				<div><span class="CA colorsSubtitulos">Normatives</span></div>
@@ -90,7 +90,7 @@
 					Divendres 15 de juny de 20h a 23h a Rambla Prim amb c. Ferrer Bassa<br/>
 					(Metro Besòs Mar-L4)<br/>
 					Si tens alguna habilitat, talent, toques algun instrument, t’agrada ballar, cantar, fer playback, circ, teatre, màgia o qualsevol cosa estrambòtica no t’ho pensis i apunta’t! És un concurs amb premis!<br/>
-					Descarrega el díptic en els següents idiomes: en Català, Castellà, Àrab, Xinés i wolof<br/><br/><a class="btn custom-btn-class mt-3" href="documents/TSQVDptc.pdf" target="_blank">Prem aquí</a>
+					Descarrega el díptic en els següents idiomes: en Català, Castellà, Àrab, Xinés i Wolof<br/><br/><a class="btn custom-btn-class mt-3" href="documents/TSQVDptc.pdf" target="_blank">Prem aquí</a>
 				</span><br>	
 			</div>
 		</div>
