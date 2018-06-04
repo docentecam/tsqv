@@ -1,4 +1,6 @@
-
+a:link{
+	text-decoration: none;
+}
 .cursorPC{
     cursor: pointer!important;
     /* Manita para ESP Y CAT */
@@ -37,11 +39,6 @@ div.bg-light{
 	padding: 0;
 
 }
-.textBlack{
-	color:#000000;
-
-}
-
 .visible{display: block;}
 .oculto{display: none;}
 .row {
@@ -50,9 +47,6 @@ div.bg-light{
 .borderFooter{
 	border-top: 2px solid #E2E2E2;
 }
-/*.textBlack{
-	color:#000000;
-}*/
 .divInicio{
 	background-color: #98403c;
 }
