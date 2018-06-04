@@ -52,12 +52,12 @@
 		</div>
 
 		<header>
-			<div class="row">
+			<div class="row justify-content-md-center">
 				<div class="col-12 menuPeq fixed-top bg-white d-block d-flex mb-5">
-				    <div class="col-2">
+				    <div class="col col-lg-2 text-center mt-2">
 				    	<a class="text-dark" href="#pagInfo" id="aInfo">Normativa</a>
 				    </div>
-				    <div class="col-2">
+				    <div class="col col-lg-2 text-center mt-2">
 				    	<a class="text-dark" href="#pagVideos">Videos</a>
 				    </div>
 				    <div class="col text-center mt-1">
@@ -65,10 +65,10 @@
 				    		<h1 class="menuPeq"> Tu Si Que Vales</h1>
 				    	</a>
 				    </div>
-					<div class="text-dark col-2">
+					<div class="text-dark col col-lg-2 text-center mt-2">
 						<a class="cursorPC" onclick="canviaIdioma('ES')">ESP</a>
 					</div>
-		  			<div class="text-dark col-2">
+		  			<div class="text-dark col col-lg-2 text-center mt-2">
 		  				<a class="cursorPC" onclick="canviaIdioma('CA')">CAT</a>
 		  			</div>	
 				</div>
