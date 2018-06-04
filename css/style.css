@@ -1,3 +1,7 @@
+.row {
+	margin: 0;
+}
+
 a:link{
 	text-decoration: none;
 }
@@ -18,27 +22,20 @@ div.bg-light{
 }
 
 .colorsSubtitulos{
- background-color: #bc625c;
  font-size:25px;
+ color: #bc625c;
  
 }
 .borderFooter{
 	border-top:3px solid #E2E2E2;
 }
-.visible{display: block;}
-.oculto{display: none;}
-.row {
-	margin: 0;
-}
-/*.textBlack{
-	color:#000000;
-}*/
 .divInicio{
 	background-color: #98403c;
 }
 
-.white{
-	background-color:#FFFFFF;
+.custom-btn-class {
+	background-color: #98403c;
+	color: white;
 }
 
 i{
