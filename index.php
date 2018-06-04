@@ -46,10 +46,11 @@
 		<?php
 		require("models/videos.php");
 		?><!-- inicio Pàgina principal -->
-		<div id="divJsInicio" class="row">			
-			<div class="divInicio col-12">
-				<!-- <img src="img/TSQVDptc-1.png" class="img-fluid"> -->
-			</div>
+
+		<div class="row divInicio">
+			<div class="col"></div>
+			<div class="col-5"><img src="img/TSQVDptc-1.png" class="img-fluid"></div>
+			<div class="col"></div>
 		</div>
 
 		<header>
