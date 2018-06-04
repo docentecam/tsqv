@@ -10,12 +10,11 @@ div.bg{
 	color:black;
 	border-radius: 20px;
 	font-size: 20px;
-	text-transform: capitalize;
+
 }
 div.bg-light{
 	border-radius: 30px;
 	font-size: 20px;
-	text-transform: capitalize;
 }
 
 .colorsSubtitulos{
@@ -26,27 +25,14 @@ div.bg-light{
 .borderFooter{
 	border-top:3px solid #E2E2E2;
 }
-.visible{display: none;}
-
-
-.visible{
-	display: none;
-}
-
-.oculto{display: block;}
-.row{
-	margin: 0;
-	padding: 0;
-
-}
 .visible{display: block;}
 .oculto{display: none;}
 .row {
 	margin: 0;
 }
-.borderFooter{
-	border-top: 2px solid #E2E2E2;
-}
+/*.textBlack{
+	color:#000000;
+}*/
 .divInicio{
 	background-color: #98403c;
 }
@@ -62,6 +48,13 @@ i{
 .container{
 	padding: 0;
 }
+
+.backgroundVideos{
+	background-color:#f1dada;
+	padding-top: 15px;
+	padding-bottom:15px;
+
+}
 @media (max-width: 575px){
 	.menuPeq{
 		font-size: 0.8em;
@@ -69,5 +62,4 @@ i{
 	*{
 		font-size: 1em;
 	}
-
 }

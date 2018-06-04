@@ -1,14 +1,4 @@
 
-function muestraDivVideo(valor){
-	 var miDiv=document.getElementById("formVideo");
-	if(valor=="vid") {
-		miDiv.className="visible";
-	}
-	else{
-		miDiv.className="oculto";
-	}
-}
-
 function canviaIdioma(idioma) {
 	setCookie('selIdi',idioma,365);
 	mostrarIdiomes();
