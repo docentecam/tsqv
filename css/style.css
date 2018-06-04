@@ -8,12 +8,11 @@ div.bg{
 	color:black;
 	border-radius: 20px;
 	font-size: 20px;
-	text-transform: capitalize;
+
 }
 div.bg-light{
 	border-radius: 30px;
 	font-size: 20px;
-	text-transform: capitalize;
 }
 
 .colorsSubtitulos{
