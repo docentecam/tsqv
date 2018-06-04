@@ -33,15 +33,9 @@ div.bg-light{
 .row {
 	margin: 0;
 }
-.borderFooter{
-	border-top: 2px solid #E2E2E2;
-}
-.textBlack{
+/*.textBlack{
 	color:#000000;
-}
-.mrCss{
-	margin-right: 95px;
-}
+}*/
 .divInicio{
 	background-color: #98403c;
 }
@@ -56,4 +50,13 @@ i{
 }
 .container{
 	padding: 0;
+}
+@media (max-width: 575px){
+	.menuPeq{
+		font-size: 0.8em;
+	}
+	*{
+		font-size: 1em;
+	}
+
 }
