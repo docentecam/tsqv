@@ -54,25 +54,28 @@
 		</div>
 
 		<header>
-			<div class="container d-flex d-block fixed-top mb-5 bg-white">
-			    <div class="mr-auto p-2">
-			    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
-			    </div>
-			    <div class="mr-auto p-2">
-			    	<a class="textBlack" href="#">Page 1</a>
-			    </div>
-			    <div class="mr-auto p-2">
-			    	<a class="textBlack" href="#">Page 2</a>
-			    </div>
-			    <div class="mr-auto p-2 textBlack ">
-			    	<h1 class="mrCss"> Tu Si Que Vales</h1>
-			    </div>
-				<div class="ml-auto p-2">
-					<a class="textBlack cursorPC" onclick="canviaIdioma('ES')">ESP</a>
+			<div class="row">
+				<div class="container d-flex d-block fixed-top mb-5 bg-white col-12">
+					
+				    <div class="mr-auto p-2 col-1">
+				    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
+				    </div>
+				    <div class="mr-auto p-2 col-1">
+				    	<a class="textBlack" href="#">Page 1</a>
+				    </div>
+				    <div class="mr-auto p-2 col-1">
+				    	<a class="textBlack" href="#">Page 2</a>
+				    </div>
+				    <div class="mr-auto p-2 textBlack col-4">
+				    	<h1 class="mrCss"> Tu Si Que Vales</h1>
+				    </div>
+					<div class="ml-auto p-2 col-0">
+						<a class="textBlack cursorPC" onclick="canviaIdioma('ES')">ESP</a>
+					</div>
+		  			<div class="ml-auto p-2 col-0">
+		  				<a class="textBlack cursorPC" onclick="canviaIdioma('CA')">CAT</a>
+		  			</div>	
 				</div>
-	  			<div class="ml-auto p-2">
-	  				<a class="textBlack cursorPC" onclick="canviaIdioma('CA')">CAT</a>
-	  			</div>	
 			</div>
 		</header>
 		<div class="row">
