@@ -136,24 +136,7 @@
 				</span>
 			</div>
 		</div>
-
-<<<<<<< HEAD
-=======
-		<div class="row"  id="pagVideos">
-			<div id="idVideos">
-				<div class="row">
-					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
-					<form id="formVideo" class="col-12" method="GET" action="models/videos.php">
-						<input type="hidden" name="acc" value="i">
-						Introdueix el link del video:<br>
-						<input type="text" name="urlVideo">		
-						<input type="submit" name="subirVideo" value="Pujar video" onclick="muestraDivVideo('subir')">
-					</form>
-				</div>
-			</div>
-		</div>
-
->>>>>>> origin/master
+		
 		<div class="container">
 			<div class="row textcenter">
 				<?php
