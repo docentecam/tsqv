@@ -153,7 +153,7 @@
 			</div>
 		</div>
 		
-		<footer class="offset-1 borderFooter">
+		<footer class="borderFooter">
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/plaComunitari.jpg">
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/centreCivic.jpg">
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/LogoAvMaresme.jpg">
