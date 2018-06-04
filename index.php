@@ -25,19 +25,17 @@
 			   	objetosCA=document.getElementsByClassName("CA");
 				objetosES=document.getElementsByClassName("ES");
 			   	mostrarIdiomes();
-
-
-			   //  var miDiv=document.getElementById("formVideo");
-			  	// miDiv.className="oculto";
-			  	// console.log(miDiv.className);
-
-			 //  	var ventana_ancho = $(window).width();
-				// var ventana_alto = $(window).height();
-				// console.log(ventana_ancho+' '+ventana_alto);
-				// var fullScreen=document.getElementById("divJsInicio");
-			 //        fullScreen.style.height = ventana_alto;
-			 //        fullScreen.style.width = ventana_ancho;
-			 //        fullScreen.style.color = 'blue';
+				  $("a").on('click', function(event) {
+				    if (this.hash !== "") {
+				      event.preventDefault();
+				      var hash = this.hash;
+				      $('html, body').animate({
+				        scrollTop: $(hash).offset().top
+				      }, 800, function(){
+				        window.location.hash = hash;
+				      });
+				    }
+				  });
 				});
 		</script>
 		
@@ -76,7 +74,7 @@
 				</div>
 			</div>
 		</header>
-		<div class="row">
+		<div class="row" id="pagInfo">
 			<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg">
 				<h1>Tu si que vales</h1>
 				<span class="ES">Concursos de talentos del barrio el Besòs i el Maresme<br/>
@@ -133,7 +131,7 @@
 			</div>
 		</div>
 		
-		<div class="container">
+		<div class="container" id="pagVideo">
 			<div class="row textcenter">
 				<?php
 					$resultVideos= listadoVideos();
