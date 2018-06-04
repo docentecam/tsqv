@@ -72,3 +72,8 @@ i{
 .container{
 	padding: 0;
 }
+.backgroundVideos{
+	background-color:#f1dada;
+	padding-top: 15px;
+	padding-bottom:15px;
+}

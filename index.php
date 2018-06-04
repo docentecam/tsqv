@@ -154,8 +154,8 @@
 					{		 
 				?>
 		  					
-						<div class="col-sm-10 my-2 col-lg-5 ml-md-5 mt-md-4 ">	
-							<div class=" embed-responsive embed-responsive-16by9 ">
+						<div class="col-sm-10 my-2 col-lg-5 ml-md-5 mt-md-4 backgroundVideos rounded" >	
+							<div class=" embed-responsive embed-responsive-16by9 rounded">
 								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
 							</div>
 						</div>
