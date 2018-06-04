@@ -25,20 +25,19 @@
 			   	objetosCA=document.getElementsByClassName("CA");
 				objetosES=document.getElementsByClassName("ES");
 			   	mostrarIdiomes();
+			  $("a").on('click', function(event) {
 
-
-			   //  var miDiv=document.getElementById("formVideo");
-			  	// miDiv.className="oculto";
-			  	// console.log(miDiv.className);
-
-			 //  	var ventana_ancho = $(window).width();
-				// var ventana_alto = $(window).height();
-				// console.log(ventana_ancho+' '+ventana_alto);
-				// var fullScreen=document.getElementById("divJsInicio");
-			 //        fullScreen.style.height = ventana_alto;
-			 //        fullScreen.style.width = ventana_ancho;
-			 //        fullScreen.style.color = 'blue';
-				});
+			    if (this.hash !== "") {
+			      event.preventDefault();
+			      var hash = this.hash;
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+			        window.location.hash = hash;
+			      });
+			    }
+			  });
+			});
 		</script>
 		
 	</head>
@@ -59,7 +58,7 @@
 			    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
 			    </div>
 			    <div class="mr-auto p-2">
-			    	<a class="textBlack" href="#">Page 1</a>
+			    	<a class="textBlack" href="#pagInfo" id="aInfo">Page 1</a>
 			    </div>
 			    <div class="mr-auto p-2">
 			    	<a class="textBlack" href="#">Page 2</a>
@@ -75,7 +74,7 @@
 	  			</div>	
 			</div>
 		</header>
-		<div class="row">
+		<div class="row" id="pagInfo">
 			<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg">
 				<h1>Tu si que vales</h1>
 				<span class="ES">Concursos de talentos del barrio el Besòs i el Maresme<br/>
