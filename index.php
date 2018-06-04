@@ -75,9 +75,6 @@
 		  				<a class="cursorPC" onclick="canviaIdioma('CA')">CAT</a>
 		  			</div>	
 				</div>
-	  			<div class="ml-auto p-2">
-	  				<a class="textBlack" onclick="canviaIdioma('CA')">CAT</a>
-	  			</div>	
 			</div>
 		</header>
 		<div class="row">
