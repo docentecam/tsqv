@@ -46,10 +46,11 @@
 		<?php
 		require("models/videos.php");
 		?><!-- inicio Pàgina principal -->
-		<div id="divJsInicio" class="row">			
-			<div class="divInicio col-12">
-				<!-- <img src="img/TSQVDptc-1.png" class="img-fluid"> -->
-			</div>
+
+		<div class="row divInicio">
+			<div class="col"></div>
+			<div class="col-5"><img src="img/TSQVDptc-1.png" class="img-fluid"></div>
+			<div class="col"></div>
 		</div>
 
 		<header>
@@ -67,10 +68,10 @@
 			    	<h1 class="mrCss"> Tu Si Que Vales</h1>
 			    </div>
 				<div class="ml-auto p-2">
-					<a class="textBlack" onclick="canviaIdioma('ES')">ESP</a>
+					<a class="textBlack cursorPC" onclick="canviaIdioma('ES')">ESP</a>
 				</div>
 	  			<div class="ml-auto p-2">
-	  				<a class="textBlack" onclick="canviaIdioma('CA')">CAT</a>
+	  				<a class="textBlack cursorPC" onclick="canviaIdioma('CA')">CAT</a>
 	  			</div>	
 			</div>
 		</header>
@@ -163,17 +164,17 @@
 		</div>
 		
 		<footer class="mx-5 borderFooter">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/logo PDC.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/logocalco2_sense_marc.jpg">
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/plaComunitari.jpg">
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/centreCivic.jpg">
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/LogoAvMaresme.jpg">
 			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/cazcarra.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/BFD_DEFINITIVO.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Logo_DTASF-Direccio_General_Accio_Civica_Comunitaria (1).jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Aj+basa_2014_rodona_color-fonsblanc.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Logo-CasesOficis-2018- color.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Logotipo_SOC_color_png.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/LogoGeneralitatcolor_png.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/MEYSS_color.jpg">	
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/barcelonaForumDistrict.jpg">
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Direccio_General_Accio_Civica.jpg">
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/bcnActiva.png">
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/casesOficis.png">
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Logotipo_SOC.png">
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/logoGeneralitat.png">
+			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/MEYSS.jpg">	
 		</footer>		
 	</body>
 </html>
