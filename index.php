@@ -58,15 +58,12 @@
 			<div class="row">
 				<div class="container d-flex d-block fixed-top mb-5 bg-white col-12">
 				    <div class="mr-auto p-2 col-1">
-				    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
+				    	<a class="textBlack" href="#pagInfo" id="aInfo">Normativa</a>
 				    </div>
 				    <div class="mr-auto p-2 col-1">
-				    	<a class="textBlack" href="#pagInfo" id="aInfo">Page 1</a>
+				    	<a class="textBlack" href="#">Videos</a>
 				    </div>
-				    <div class="mr-auto p-2 col-1">
-				    	<a class="textBlack" href="#">Page 2</a>
-				    </div>
-				    <div class="mr-auto p-2 textBlack col-4">
+				    <div class="mr-auto p-2 textBlack col-4" href="#">
 				    	<h1 class="mrCss"> Tu Si Que Vales</h1>
 				    </div>
 					<div class="ml-auto p-2 col-0">

@@ -54,7 +54,8 @@ div.bg-light{
 	color:#000000;
 }
 .mrCss{
-	margin-right: 95px;
+	/*margin-right: 95px;*/
+	margin-left: 150px;
 }
 .divInicio{
 	background-color: #98403c;
