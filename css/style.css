@@ -1,4 +1,8 @@
 
+.row {
+	margin: 0;
+}
+
 .cursorPC{
     cursor: pointer!important;
     /* Manita para ESP Y CAT */
@@ -17,31 +21,21 @@ div.bg-light{
 }
 
 .colorsSubtitulos{
- background-color: #bc625c;
  font-size:25px;
+ color: #bc625c;
  
 }
 .borderFooter{
 	border-top:3px solid #E2E2E2;
 }
 
-.textBlack{
-	color:#000000;
-
-}
-
-.row {
-	margin: 0;
-}
-/*.textBlack{
-	color:#000000;
-}*/
 .divInicio{
 	background-color: #98403c;
 }
 
-.white{
-	background-color:#FFFFFF;
+.custom-btn-class {
+	background-color: #98403c;
+	color: white;
 }
 
 i{
@@ -60,3 +54,7 @@ i{
 	}
 
 }
+
+
+
+/* #d38283*/
