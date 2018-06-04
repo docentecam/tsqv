@@ -1,4 +1,8 @@
 
+.cursorPC{
+    cursor: pointer!important;
+    /* Manita para ESP Y CAT */
+}
 div.bg{
 	background:#f1dada ;
 	color:black;

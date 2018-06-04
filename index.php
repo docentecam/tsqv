@@ -67,10 +67,10 @@
 			    	<h1 class="mrCss"> Tu Si Que Vales</h1>
 			    </div>
 				<div class="ml-auto p-2">
-					<a class="textBlack" onclick="canviaIdioma('ES')">ESP</a>
+					<a class="textBlack cursorPC" onclick="canviaIdioma('ES')">ESP</a>
 				</div>
 	  			<div class="ml-auto p-2">
-	  				<a class="textBlack" onclick="canviaIdioma('CA')">CAT</a>
+	  				<a class="textBlack cursorPC" onclick="canviaIdioma('CA')">CAT</a>
 	  			</div>	
 			</div>
 		</header>
