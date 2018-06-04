@@ -5,6 +5,9 @@
 a:link{
 	text-decoration: none;
 }
+a:hover {
+    color: white;
+}
 .cursorPC{
     cursor: pointer!important;
     /* Manita para ESP Y CAT */

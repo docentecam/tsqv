@@ -76,7 +76,7 @@
 		</header>
 		<div class="row" id="pagInfo">
 			<div class="col-sm mt-5 position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg">
-				<h1>Tu si que vales</h1>
+				<div><span class="ES colorsSubtitulos">Normativas</span></div>
 				<span class="ES">Concursos de talentos del barrio el Besòs i el Maresme<br/>
 					Viernes 15 de junio de 20h a 23h Rambla Prim con c. Ferrer Bassa<br/>
 					(Metro Besòs Mar-L4)<br/>
@@ -84,7 +84,7 @@
 					Descarga el diptico en los siguientes idiomas: Catalán, Castellano, Árabe, Chino i wolof<br/><br/><a class="btn custom-btn-class mt-3" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aquí</a>
 				</span>
 						
-
+				<div><span class="CA colorsSubtitulos">Normatives</span></div>
 				<span class="CA" style="display: none">
 					Concurs de talents al barri el Besòs i el Maresme<br/>
 					Divendres 15 de juny de 20h a 23h a Rambla Prim amb c. Ferrer Bassa<br/>
