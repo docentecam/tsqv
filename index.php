@@ -63,8 +63,10 @@
 				    <div class="mr-auto p-2 col-1">
 				    	<a class="textBlack" href="#">Videos</a>
 				    </div>
-				    <div class="mr-auto p-2 textBlack col-4" href="#">
-				    	<h1 class="mrCss"> Tu Si Que Vales</h1>
+				    <div class="mr-auto p-2 col-4">
+				    	<a href="#" class="textBlack">
+				    		<h1 class="mrCss"> Tu Si Que Vales</h1>
+				    	</a>
 				    </div>
 					<div class="ml-auto p-2 col-0">
 						<a class="textBlack cursorPC" onclick="canviaIdioma('ES')">ESP</a>
