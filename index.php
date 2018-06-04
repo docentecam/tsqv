@@ -162,18 +162,19 @@
 			</div>
 		</div>
 		
-		<footer class="mx-5 borderFooter">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/plaComunitari.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/centreCivic.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/LogoAvMaresme.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/cazcarra.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/barcelonaForumDistrict.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Direccio_General_Accio_Civica.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/bcnActiva.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/casesOficis.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Logotipo_SOC.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/logoGeneralitat.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/MEYSS.jpg">	
+		<footer class="borderFooter">
+			<img class="col-lg-1  col-3 col-md-2 img-fluid" src="img/plaComunitari.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/centreCivic.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/LogoAvMaresme.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/cazcarra.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/hotelSB.jpg">	
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/barcelonaForumDistrict.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/Direccio_General_Accio_Civica.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/bcnActiva.png">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/casesOficis.png">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/Logotipo_SOC.png">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/logoGeneralitat.png">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/MEYSS.jpg">	
 		</footer>		
 	</body>
 </html>
