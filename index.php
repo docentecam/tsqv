@@ -61,10 +61,10 @@
 				    	<a class="textBlack" href="#pagInfo" id="aInfo">Normativa</a>
 				    </div>
 				    <div class="mr-auto p-2 col-1">
-				    	<a class="textBlack" href="#">Videos</a>
+				    	<a class="textBlack" href="#pagVideos">Videos</a>
 				    </div>
 				    <div class="mr-auto p-2 col-4">
-				    	<a href="#" class="textBlack">
+				    	<a href="#pagInicio" class="textBlack">
 				    		<h1 class="mrCss"> Tu Si Que Vales</h1>
 				    	</a>
 				    </div>
