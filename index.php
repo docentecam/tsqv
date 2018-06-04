@@ -58,7 +58,7 @@
 				    	<a class="text-dark" href="#pagInfo" id="aInfo">Normativa</a>
 				    </div>
 				    <div class="col col-lg-2 text-center mt-2">
-				    	<a class="text-dark" href="#pagVideos">Videos</a>
+				    	<a class="text-dark" href="#pagVideos">Vídeos</a>
 				    </div>
 				    <div class="col text-center mt-1">
 				    	<a href="#pagInicio" class="text-dark">
@@ -131,7 +131,7 @@
 			</div>
 		</div>
 		
-		<div class="container" id="pagVideo">
+		<div class="container" id="pagVideos">
 			<div class="row textcenter">
 				<?php
 					$resultVideos= listadoVideos();
