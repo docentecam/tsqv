@@ -47,7 +47,7 @@
 		require("models/videos.php");
 		?><!-- inicio Pàgina principal -->
 
-		<div class="row divInicio">
+		<div class="row divInicio" id="pagInicio">
 			<div class="col"></div>
 			<div class="col-5"><img src="img/TSQVDptc-1.png" class="img-fluid"></div>
 			<div class="col"></div>
@@ -130,7 +130,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row"  id="pagVideos">
 			<div id="idVideos">
 				<div class="row">
 					<button onclick="muestraDivVideo('vid')" class=" far fa-plus"></button>
