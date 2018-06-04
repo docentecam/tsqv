@@ -46,10 +46,11 @@
 		<?php
 		require("models/videos.php");
 		?><!-- inicio Pàgina principal -->
-		<div id="divJsInicio" class="row">			
-			<div class="divInicio col-12">
-				<!-- <img src="img/TSQVDptc-1.png" class="img-fluid"> -->
-			</div>
+
+		<div class="row divInicio">
+			<div class="col"></div>
+			<div class="col-5"><img src="img/TSQVDptc-1.png" class="img-fluid"></div>
+			<div class="col"></div>
 		</div>
 
 		<header>
@@ -67,10 +68,10 @@
 			    	<h1 class="mrCss"> Tu Si Que Vales</h1>
 			    </div>
 				<div class="ml-auto p-2">
-					<a class="textBlack" onclick="canviaIdioma('ES')">ESP</a>
+					<a class="textBlack cursorPC" onclick="canviaIdioma('ES')">ESP</a>
 				</div>
 	  			<div class="ml-auto p-2">
-	  				<a class="textBlack" onclick="canviaIdioma('CA')">CAT</a>
+	  				<a class="textBlack cursorPC" onclick="canviaIdioma('CA')">CAT</a>
 	  			</div>	
 			</div>
 		</header>
@@ -151,7 +152,7 @@
 					{		 
 				?>
 		  					
-						<div class="col-lg-5 ml-5 mt-4 col-sm-10">	
+						<div class="col-sm-10 my-2 col-lg-5 ml-md-5 mt-md-4 ">	
 							<div class=" embed-responsive embed-responsive-16by9 ">
 								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
 							</div>
