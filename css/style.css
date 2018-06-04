@@ -1,4 +1,8 @@
 
+.cursorPC{
+    cursor: pointer!important;
+    /* Manita para ESP Y CAT */
+}
 div.bg{
 	background:#f1dada ;
 	color:black;
@@ -52,14 +56,9 @@ div.bg-light{
 .mrCss{
 	margin-right: 95px;
 }
-/*.divInicio{
-	align-items: center;
-	text-align: center;
+.divInicio{
 	background-color: #98403c;
-	width: 100%;
-	height: 1080px;
-
-}*/
+}
 
 .white{
 	background-color:#FFFFFF;

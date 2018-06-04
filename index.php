@@ -46,35 +46,36 @@
 		<?php
 		require("models/videos.php");
 		?><!-- inicio Pàgina principal -->
-		<div id="divJsInicio" class="row">			
-			<div class="divInicio col-12">
-				<!-- <img src="img/TSQVDptc-1.png" class="img-fluid"> -->
-			</div>
+
+		<div class="row divInicio">
+			<div class="col"></div>
+			<div class="col-5"><img src="img/TSQVDptc-1.png" class="img-fluid"></div>
+			<div class="col"></div>
 		</div>
 
 		<header>
 			<div class="row">
-			<div class="container d-flex d-block fixed-top mb-5 bg-white col-12">
-				
-			    <div class="mr-auto p-2 col-1">
-			    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
-			    </div>
-			    <div class="mr-auto p-2 col-1">
-			    	<a class="textBlack" href="#">Page 1</a>
-			    </div>
-			    <div class="mr-auto p-2 col-1">
-			    	<a class="textBlack" href="#">Page 2</a>
-			    </div>
-			    <div class="mr-auto p-2 textBlack col-4">
-			    	<h1 class="mrCss"> Tu Si Que Vales</h1>
-			    </div>
-				<div class="ml-auto p-2 col-0">
-					<a class="textBlack" onclick="canviaIdioma('ES')">ESP</a>
+				<div class="container d-flex d-block fixed-top mb-5 bg-white col-12">
+					
+				    <div class="mr-auto p-2 col-1">
+				    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
+				    </div>
+				    <div class="mr-auto p-2 col-1">
+				    	<a class="textBlack" href="#">Page 1</a>
+				    </div>
+				    <div class="mr-auto p-2 col-1">
+				    	<a class="textBlack" href="#">Page 2</a>
+				    </div>
+				    <div class="mr-auto p-2 textBlack col-4">
+				    	<h1 class="mrCss"> Tu Si Que Vales</h1>
+				    </div>
+					<div class="ml-auto p-2 col-0">
+						<a class="textBlack cursorPC" onclick="canviaIdioma('ES')">ESP</a>
+					</div>
+		  			<div class="ml-auto p-2 col-0">
+		  				<a class="textBlack cursorPC" onclick="canviaIdioma('CA')">CAT</a>
+		  			</div>	
 				</div>
-	  			<div class="ml-auto p-2 col-0">
-	  				<a class="textBlack" onclick="canviaIdioma('CA')">CAT</a>
-	  			</div>
-	  			</div>
 			</div>
 		</header>
 		<div class="row">
@@ -154,7 +155,7 @@
 					{		 
 				?>
 		  					
-						<div class="col-lg-5 ml-5 mt-4 col-sm-10">	
+						<div class="col-sm-10 my-2 col-lg-5 ml-md-5 mt-md-4 ">	
 							<div class=" embed-responsive embed-responsive-16by9 ">
 								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $row['urlVideo'] ?>" allowfullscreen></iframe>
 							</div>
@@ -165,18 +166,19 @@
 			</div>
 		</div>
 		
-		<footer class="mx-5 borderFooter">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/plaComunitari.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/centreCivic.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/LogoAvMaresme.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/cazcarra.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/barcelonaForumDistrict.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Direccio_General_Accio_Civica.jpg">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/bcnActiva.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/casesOficis.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/Logotipo_SOC.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/logoGeneralitat.png">
-			<img class="col-lg-1 col-sm-4 col-md-2 img-fluid" src="img/MEYSS.jpg">	
+		<footer class="borderFooter">
+			<img class="col-lg-1  col-3 col-md-2 img-fluid" src="img/plaComunitari.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/centreCivic.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/LogoAvMaresme.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/cazcarra.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/hotelSB.jpg">	
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/barcelonaForumDistrict.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/Direccio_General_Accio_Civica.jpg">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/bcnActiva.png">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/casesOficis.png">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/Logotipo_SOC.png">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/logoGeneralitat.png">
+			<img class="col-lg-1 col-3 col-md-2 img-fluid" src="img/MEYSS.jpg">	
 		</footer>		
 	</body>
 </html>
