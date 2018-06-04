@@ -57,7 +57,6 @@
 		<header>
 			<div class="row">
 				<div class="container d-flex d-block fixed-top mb-5 bg-white col-12">
-					
 				    <div class="mr-auto p-2 col-1">
 				    	<a class="textBlack" href="#">Home <span class="sr-only">(current)</span></a>	
 				    </div>
