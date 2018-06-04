@@ -54,9 +54,8 @@
 		</div>
 
 		<header>
-
 			<div class="row">
-				<div class="d-flex d-block fixed-top mb-5 bg-white col-12 menuPeq">
+				<div class="col-12 menuPeq fixed-top bg-white d-block d-flex mb-5">
 				    <div class="col-2">
 				    	<a class="text-dark" href="#pagInfo" id="aInfo">Normativa</a>
 				    </div>

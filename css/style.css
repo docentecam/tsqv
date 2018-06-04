@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-
 .row {
 	margin: 0;
 }
 
-=======
 a:link{
 	text-decoration: none;
 }
->>>>>>> origin/master
 .cursorPC{
     cursor: pointer!important;
     /* Manita para ESP Y CAT */
@@ -33,18 +29,6 @@ div.bg-light{
 .borderFooter{
 	border-top:3px solid #E2E2E2;
 }
-<<<<<<< HEAD
-
-=======
-.visible{display: block;}
-.oculto{display: none;}
-.row {
-	margin: 0;
-}
-/*.textBlack{
-	color:#000000;
-}*/
->>>>>>> origin/master
 .divInicio{
 	background-color: #98403c;
 }
@@ -75,9 +59,4 @@ i{
 	*{
 		font-size: 1em;
 	}
-<<<<<<< HEAD
-
 }
-=======
-}
->>>>>>> origin/master
