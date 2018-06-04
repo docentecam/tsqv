@@ -87,7 +87,7 @@
 					Viernes 15 de junio de 20h a 23h Rambla Prim con c. Ferrer Bassa<br/>
 					(Metro Besòs Mar-L4)<br/>
 					Si tienes alguna habilidad, talento, tocas algún instrumento, te gusta bailar, cantar,hacer playback, circo, teatro, magia o cualquier cosa estrambótica no te lo pienses y ¡apúntate! Concurso con premios!<br/>
-					Descarga el diptico en los siguientes idiomas: Catalán, Castellano, Árabe, Chino i wolof<br/><br/><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a>
+					Descarga el diptico en los siguientes idiomas: Catalán, Castellano, Árabe, Chino i wolof<br/><br/><a class="btn btn-info mt-3" href="documents/TSQVDptc.pdf" target="_blank">Pulsa aqui</a>
 				</span>
 						
 
@@ -96,7 +96,7 @@
 					Divendres 15 de juny de 20h a 23h a Rambla Prim amb c. Ferrer Bassa<br/>
 					(Metro Besòs Mar-L4)<br/>
 					Si tens alguna habilitat, talent, toques algun instrument, t’agrada ballar, cantar, fer playback, circ, teatre, màgia o qualsevol cosa estrambòtica no t’ho pensis i apunta’t! És un concurs amb premis!<br/>
-					Descarrega el díptic en els següents idiomes: en Català, Castellà, Àrab, Xinés i wolof<br/><br/><a class="btn btn-outline-info" href="documents/TSQVDptc.pdf" target="_blank">prem aqui</a>
+					Descarrega el díptic en els següents idiomes: en Català, Castellà, Àrab, Xinés i wolof<br/><br/><a class="btn btn-info mt-3" href="documents/TSQVDptc.pdf" target="_blank">prem aqui</a>
 				</span><br>	
 			</div>
 		</div>
@@ -123,14 +123,16 @@
 					Hasta el 10 de junio, presencialmente en el Centre Cívic Besòs<br/>
 					(rambla Prim 87-89, Metro L4 Besòs Mar)<br/>
 					o enviando un mail a tusiquevales.bm@gmail.com<br/>
-					Más info en el 93 256 49 01 / 617 252 908
+					Más info en el 93 256 49 01 / 617 252 908<br/>
+					<a href="https://goo.gl/forms/BuKhwErrqfA4nuJ53" target="_blank" class="btn btn-info mt-3"><span class="ES">Inscribete aqui</span><span class="CA" style="display: none">Inscriu-te aquì</span></a>
 				</span>
 				<span class="CA" style="display: none">
 					<span class="colorsSubtitulos text-white">INSCRIPCIONS </span><br/>
 					Fins al 10 de juny presencialment al Centre Cívic Besòs<br/>
 					(rambla Prim 87-89, Metro L4 Besòs Mar)<br/>
 					o enviant un mail a tusiquevales.bm@gmail.com<br/>
-					Més info al 93 256 49 01 / 617 252 90
+					Més info al 93 256 49 01 / 617 252 90<br/>
+					<a href="https://goo.gl/forms/BuKhwErrqfA4nuJ53" target="_blank" class="btn btn-info mt-3"><span class="ES">Inscribete aqui</span><span class="CA" style="display: none">Inscriu-te aquì</span></a>
 				</span>
 			</div>
 		</div>
