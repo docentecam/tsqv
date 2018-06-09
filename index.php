@@ -95,15 +95,15 @@
 			<div class="col-sm text-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
 				<span class="ES">
 					<span class="colorsSubtitulos">3 CATEGORÍAS:</span><br/>
-					<i class="fas fa-child"></i> Infantil (hasta 12 años)<br/>
-					<i class="fas fa-graduation-cap"></i> Juvenil (hasta 25 años)<br/>
-					<i class="fas fa-male"></i> Adulta (mayores 25 años)
+					<i class="fas fa-child"></i> Infantil (hasta 12 años).<br/> Premio: Entradas al Bosc Urbà<br/>
+					<i class="fas fa-graduation-cap"></i> Juvenil (hasta 25 años).<br/> Premio: Entradas Escape Room Game Point Center<br/>
+					<i class="fas fa-male"></i> Adulta (mayores 25 años).<br/> Premio: Entradas SPA Diagonal Zero.
 				</span>
 				<span class="CA" style="display: none">
 					<span class="colorsSubtitulos">3 CATEGORIES:</span><br/>
-					<i class="fas fa-child"></i> Infantil (fins a 12 anys)<br/>
-					<i class="fas fa-graduation-cap"></i> Juvenil (fins a 25 anys)<br/>
-					<i class="fas fa-male"></i> Adults (majors 25 anys)
+					<i class="fas fa-child"></i> Infantil (fins a 12 anys).<br/> Premi: Entrades al Bosc Urbà<br/>
+					<i class="fas fa-graduation-cap"></i> Juvenil (fins a 25 anys).<br/> Premi: Entrades Escape Room Game Point Center<br/>
+					<i class="fas fa-male"></i> Adults (majors 25 anys).<br/> Premi: Entrades SPA Diagonal Zero.
 				</span>
 			</div>
 		</div><br>
@@ -152,12 +152,7 @@
 			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/centreCivic.jpg">
 			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/LogoAvMaresme.jpg">
 			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/3logos_photoshop.png">
-			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/Direccio_General_Accio_Civica.jpg">
-			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/bcnActiva.png">
-			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/casesOficis.png">
-			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/Logotipo_SOC.png">
-			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/logoGeneralitat.png">
-			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/MEYSS.jpg">	
+			<img class="col-2 col-lg-1 col-md-2 img-fluid" src="img/Direccio_General_Accio_Civica.jpg">	
 		</footer>		
 	</body>
 </html>

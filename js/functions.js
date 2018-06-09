@@ -8,12 +8,10 @@ function mostrarIdiomes()
 	var ocultaCA;
 	var ocultaES;
 	if(getCookie('selIdi')=="ES") {
-			console.log("intenta cambiar idioma a Español");
 		ocultaCA="none";
 		ocultaES="inline";
 	}
 	else{
-		console.log("intenta cambiar idioma a CATALAN");
 		ocultaCA="inline";
 		ocultaES="none";
 	}
